@@ -15,6 +15,8 @@ $ npm install --save get-stdin-promise
 ## Usage
 
 ```js
+var stdin = require('get-stdin-promise')
+
 stdin.then(function (text) {
 	console.log(text + '!!!')
 })
